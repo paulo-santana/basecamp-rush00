@@ -6,7 +6,7 @@
 /*   By: psergio- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 17:02:41 by psergio-          #+#    #+#             */
-/*   Updated: 2021/04/03 17:24:13 by psergio-         ###   ########.fr       */
+/*   Updated: 2021/04/03 18:30:45 by psergio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,16 @@ void	rush(int x, int y);
 int		main(void)
 {
 	rush(5, 3);
+	printf("\n");
+	rush(5, 1);
+	printf("\n");
+	rush(1, 1);
+	printf("\n");
+	rush(1, 5);
+	printf("\n");
+	rush(4, 4);
+	printf("\n");
+	rush(5, 2);
+	printf("\n");
 	return (0);
 }
