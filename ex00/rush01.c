@@ -6,7 +6,7 @@
 /*   By: psergio- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 15:13:36 by psergio-          #+#    #+#             */
-/*   Updated: 2021/04/03 17:02:50 by psergio-         ###   ########.fr       */
+/*   Updated: 2021/04/04 18:52:44 by psergio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,8 @@ void	rush(int x, int y)
 	int		j;
 	char	char_to_print;
 
+	if (x < 1 || y < 1)
+		return ;
 	i = 0;
 	while (i++ < y)
 	{

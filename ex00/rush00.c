@@ -6,7 +6,7 @@
 /*   By: jgomes-c <jgomes-c@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 20:41:50 by jgomes-c          #+#    #+#             */
-/*   Updated: 2021/04/04 18:38:20 by jgomes-c         ###   ########.fr       */
+/*   Updated: 2021/04/04 19:00:56 by psergio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,8 @@ void	rush(int x, int y)
 	int		j;
 	char	char_to_print;
 
+	if (x < 1 || y < 1)
+		return ;
 	i = 0;
 	while (i++ < y)
 	{
@@ -35,6 +37,7 @@ void	rush(int x, int y)
 				char_to_print = '-';
 			else
 				char_to_print = ' ';
+			ft_putchar(char_to_print);
 		}
 		ft_putchar('\n');
 	}
