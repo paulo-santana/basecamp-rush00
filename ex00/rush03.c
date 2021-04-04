@@ -6,7 +6,7 @@
 /*   By: jgomes-c <jgomes-c@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 19:14:07 by jgomes-c          #+#    #+#             */
-/*   Updated: 2021/04/03 20:15:23 by jgomes-c         ###   ########.fr       */
+/*   Updated: 2021/04/04 18:38:36 by jgomes-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,8 @@ void	rush(int x, int y)
 		j = 0;
 		while (j++ < x)
 		{
-			if ((i == 1 && j == x && x > 1) || (i == y && j == x && y > 1 && x > 1))
+			if ((i == 1 && j == x && x > 1)
+			|| (i == y && j == x && y > 1 && x > 1))
 				char_to_print = 'C';
 			else if ((i == y && j == 1) || (i == 1 && j == 1))
 				char_to_print = 'A';
